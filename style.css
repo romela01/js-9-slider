@@ -1,0 +1,78 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.slider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url(https://www.elsevier.com/__data/assets/image/0004/823261/information-system-supporting-science.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+}
+.person{
+    padding: 4%;
+    width: 80%;
+    height: 80%;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.person:hover{
+    border: 1px solid crimson;
+    background-color: rgba(0, 0, 0, 0.9);
+    transform: scale(1.02);
+}
+.person img{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid crimson;
+    border-radius: 50%;
+}
+.person ul li{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: crimson;
+}
+.arrow{
+    font-size: 50px;
+    position: absolute;
+    cursor: pointer;
+    color: crimson;
+    transition: all 0.5s ease;
+}
+.arrow:hover{
+    font-size:60px ;
+    transform: scale(1.1);
+}
+.left{
+    left: 5%;
+}
+.right{
+    right: 5%;
+}
